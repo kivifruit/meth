@@ -1,8 +1,42 @@
-.App {
+/*  */
+#App {
+  align-items: center;
   text-align: center;
+  /*  */
+  
+  /* flex-direction: column; */
+  height: 20px;
 }
+#container { display:flex; flex-direction: column; text-align:center;}
+#App1 {
+  height: 20px;
 
-.App-logo {
+  text-align:center;
+  
+}
+#App2{
+ 
+  height: 20px;
+  text-align:left;
+  margin-left: 90px;
+}
+#a{
+  order: 1;
+}
+#b{
+  order: 2;
+  margin-top: 5%;
+  /* margin-left:50%;
+  margin-bottom: 10%;
+  height:10%; */
+}
+/* #Ap{
+  height: 20px;
+  align-items: center;
+  text-align:center;
+  flex-direction: column;
+} */
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +69,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
