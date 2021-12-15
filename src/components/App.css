@@ -1,35 +1,45 @@
+
+#container { display:flex; flex-direction: column; text-align:center;}
+.center{
+  margin-left: 25%;
+  text-align:center;
+}
+.b{text-align: center;  margin-left:40%;}
 /*  */
-#App {
+/* #App {
   align-items: center;
   text-align: center;
   /*  */
   
   /* flex-direction: column; */
-  height: 20px;
-}
-#container { display:flex; flex-direction: column; text-align:center;}
-#App1 {
+  /* height: 20px;
+} */
+
+/* #App1 {
   height: 20px;
 
   text-align:center;
   
-}
-#App2{
+} */
+/* #App2{
  
   height: 20px;
   text-align:left;
   margin-left: 90px;
-}
-#a{
+} */
+
+/* #a{
   order: 1;
-}
-#b{
+} */
+
+/* #b{
   order: 2;
-  margin-top: 5%;
+  margin-top: 5%; */
   /* margin-left:50%;
   margin-bottom: 10%;
   height:10%; */
-}
+/* } */
+
 /* #Ap{
   height: 20px;
   align-items: center;

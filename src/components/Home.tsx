@@ -13,16 +13,11 @@ return {
 
     }
     return (<>
-<div id="container">
-    <div id="a">
-   <h1 id="App">build a work flow</h1>
- <div id="App2" ><StatusList /> </div> 
-      <div ><TransitionList  /></div>
-</div>
-<div id="b">
-<Redbutton />
-</div>
-</div> 
+
+<table id="container">
+    <tr className="center"><td><StatusList/></td><td><TransitionList/></td></tr>
+    <tr className="b"><td><Redbutton /></td></tr>
+    </table>
     </>  );
 }
  
